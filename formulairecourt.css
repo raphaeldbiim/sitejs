@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-espace {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.tabs-joueurs {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tab-active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.active {
+    display: block;
+}
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body{
+    width: 80%;
+    margin: 80px auto;
+}
+
+form{
+    border: 1px solid rgba(153, 153, 153, 0.6);
+}
+
+form > div{
+    margin: 30px 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px
+}
+
+input{
+    height: 20px;
+    width: 40%;
+}
+
+button{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message.error{
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgba(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message.success{
+    border: 1px solid rgba(81, 150, 2);
+    color: rgba(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.success {
+    border: 1px solid rgb (81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
